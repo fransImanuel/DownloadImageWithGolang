@@ -14,12 +14,15 @@ import (
 )
 
 func main() {
+	// if runtime.GOOS == "windows" {
+	// 	fmt.Println("Hello from Windows")
+	// }
 
-	link_gambar := "https://images.bisnis.com/posts/2019/03/26/904507/shutterstock_568477957.jpg"
-	sub_folder := "tmp"
+	// link_gambar := "https://images.bisnis.com/posts/2019/03/26/904507/shutterstock_568477957.jpg"
+	// sub_folder := "tmp"
 
 	createDirTmp(sub_folder)
-	loadImageFromModels(sub_folder, link_gambar)
+	// loadImageFromModels(sub_folder, link_gambar)
 }
 
 func loadImageFromModels(cont string, link_gambar string) {
